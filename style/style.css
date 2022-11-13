@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer {
+    background: #F8F8F8;
+    padding: 78px 0 20px ;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.footer__content {
+    display: flex;
+    column-gap: 30px;
+    border-bottom: 1px solid #C6CBCD;
+    margin-bottom: 20px;
+    padding-bottom: 48px;
+}
+.footer__item {
+    /*width: calc((100% - 60px) / 3);*/
+    width: 100%;
+}
+.footer__logo {
+    margin-bottom: 30px;
+}
+.footer__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #C6CBCD;
+    margin-bottom: 40px ;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+}
+.footer__follow {
+    line-height: 80px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 30px;
+    border-bottom: 1px solid #C6CBCD;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
+.footer__social {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 46px;
+}
+.footer__social-list {
+    list-style-type: none;
+    display: flex;
+    column-gap: 11px;
+    align-items: center;
+}
+.footer__social-text {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
+.footer__social-link {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__form {
+    display: flex;
+}
+.footer__form-button {
+    max-width: 133.04px;
+    width: 100%;
+    background: #95E1D3;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    text-align: center ;
+    border: none;
+    padding: 17px;
+    text-transform: uppercase;
+}
+.footer__form-input {
+    width: calc(100% - 133.04px);
+    text-align: center;
+    border: 1px solid 
+    #C6CBCD;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'Raleway', sans-serif;
+}
+.footer__form-input::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #C6CBCD;
+    font-family: 'Raleway', sans-serif;
+}
+.footer__form-input:focus {
+    outline: none;
+    border: 1px solid#95E1D3;;
+}
+.footer__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 42px;
+    text-transform: uppercase;
+}
+.blog {
+    display: flex;
+    column-gap: 30px ;
+    margin-bottom: 20px;
+}
+.blog__wrap-img {
+    position: relative;
+    max-width: 170px;
+    width: 100%;
+
+}
+.blog__wrap-img::before {
+    content: '';
+    display: block;
+    padding-top: 61.764706%;
+}
+.blog__img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blog__wrap-info {
+    width: calc(100% - 170px - 30px);
+}
+.blog__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+}
+.blog__text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.footer__pictures {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2px;
+    row-gap: 2px;
+    margin-bottom: 42px;
+    width: 100%;
+}
+.footer__wrap-picture {
+    position: relative;
+    
+    width:calc((100% - 4px) /3) ;
+
+}
+.footer__wrap-picture::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+
+}
+.footer__wrap-picture img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.footer__instagram-link {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #2D3033;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+.footer__item-instagram {
+    max-width: 270px;
+}
+.footer__item-blog {
+    max-width: 470px;
+}
+.footer__item-info {
+    max-width: 370px
+}
